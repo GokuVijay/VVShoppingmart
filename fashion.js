@@ -2,7 +2,6 @@ const container = document.getElementById("image-container");
 const url = "https://trial-fc6a1-default-rtdb.firebaseio.com/";
 const a = localStorage.getItem("name");
 document.getElementById("vijay").innerHTML = a;
-vj.innerHTML = a;
 const bookList = [
   {
     name: "Peter England (Formal shirts)",
